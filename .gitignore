@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Logs
+*.log
+*.out
+*.err
+logs/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Python package files
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Testing
+.coverage
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# FastAPI specific
+# Static and media files (if uploaded dynamically)
+staticfiles/
+media/
+
+# Database
+*.sqlite3
+db.sqlite3
